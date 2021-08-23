@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sliding Puzzle</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Gabriel Tavares">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="javascript, game, sliding, puzzle">
+    <meta property="or:url" content="https://vnear.github.io/Sliding-Puzzle">
+    <meta property="og:title" content="Sliding Puzzle">
+    <meta property="og:description" content="A simple sliding puzzle game that challenges the player to find the correct combination by sliding pieces across a board to fit all the pieces together to form the complete picture.">
+    <meta property="og:image" content="https://vnear.github.io/Sliding-Puzzle/logo.png">
+    <meta property="twitter:image" content="summary_large_image">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="top">
+        <a href="/Sliding-Puzzle"><img src="./logo.png" alt="Sliding Puzzle"></a>
+      </div>
+    </header>
+    <main>
+      <div id="game" class="game-size center">
+        <canvas id="canvas" width="400" height="400"></canvas>
+      </div>
+
+      <div id="menu" class="panel center">
+        <div class="center">
+          <input class="text button button-margin" id="x3" value="3" type="button">
+          <input class="text button button-margin" id="x4" value="4" type="button">
+          <input class="text button button-margin" id="x5" value="5" type="button">
+          <input class="text button button-margin" id="x8" value="8" type="button">
+        </div>
+        <div class="center">
+          <input id="resize" name="resize" hidden type="button">
+          <input id="uploader" name="upload" hidden type="file" accept="image/png, image/jpeg">
+          <input id="reset" name="reset" hidden type="button">
+          <label class="text button-margin" for="resize">Resize</label>
+          <label class="text button-margin" for="uploader">Upload</label>
+          <label class="text button-margin" for="reset">Reset</label>
+        </div>
+        <div id="info" class="center text">Recommended dimensions: 400x400</div>
+      </div>
+    </main>
+
+    <footer class="center">
+      <a class="text footer-text url" href="https://github.com/vNear/Sliding-Puzzle">Github</a>
+    </footer>
+  </body>
+</html>

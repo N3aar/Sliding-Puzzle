@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Aller';
+  src: url('./aller.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: 'Starborn';
+  src: url('./starborn.ttf') format("ttf");
+}
+
+body {
+  background: #8e44ad;
+}
+
+#top {
+  width: 282px;
+  height: 41px;
+  margin: 5px auto 10px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#game {
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.game-size {
+  width: 400px;
+  height: 400px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  flex-direction: column;
+  background: #9b59b6;
+  border-radius: 10px;
+  width: 345px;
+  height: 120px;
+  margin: 20px auto;
+  border: 2px solid white;
+}
+
+.text {
+  color: white;
+  font-family: Aller;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button {
+  background: none;
+  border: 2px solid white;
+}
+
+.button-margin {
+  margin: 5px 5px 5px 5px;
+}
+
+#info {
+  font-size: 14px;
+  font-style: italic;
+  cursor: default;
+}
+
+.footer-text {
+  color: white;
+  font-size: 19px;
+  -webkit-text-stroke: 0px;
+  cursor: pointer;
+}
